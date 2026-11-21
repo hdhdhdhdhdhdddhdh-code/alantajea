@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>يومي — منظّم الإنتاجية</title>
+<meta name="theme-color" content="#5b5bd6">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- بوابة الدخول: رسالة ترحيب + رسالة تحفيزية + كلمة المرور -->
+<div id="gate" class="gate"></div>
+
+<!-- التطبيق -->
+<div id="app" hidden>
+  <header class="topbar">
+    <div class="brand"><span class="brand-dot"></span>يومي</div>
+    <nav id="nav" class="nav" aria-label="التنقل"></nav>
+  </header>
+  <main id="view" class="view"></main>
+
+  <!-- مؤشر الإنجاز العائم (أسفل اليسار) -->
+  <button id="ring" class="ring" aria-label="نسبة إنجاز اليوم"></button>
+</div>
+
+<div id="toasts" class="toasts" aria-live="polite"></div>
+
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/dialogs.js"></script>
+<script src="js/home.js"></script>
+<script src="js/pages.js"></script>
+<script src="js/finance.js"></script>
+<script src="js/year.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
